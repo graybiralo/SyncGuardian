@@ -13,26 +13,29 @@ This project monitors folder changes in real-time and notifies connected clients
    ```bash
    git clone git clone <repository_url>
  
-   
-
 2. Create a virtual environment (recommended) to keep the dependencies isolated:
-    ```python3 -m venv venv
+    ```bash
+    python3 -m venv venv
 
 3. Activate the virtual environment:
-    ```On Windows:
+    ```bash
+    On Windows:
     venv\Scripts\activate
 
     On macOS/Linux:
     source venv/bin/activate
 
 4. Install the required dependencies from requirements.txt:
-    ```pip install -r config/requirements.txt
+    ```bash
+    pip install -r config/requirements.txt
 
 5. Run the application:
-    ```python FolderUpdates/main.py
+    ```bash
+    python FolderUpdates/main.py
 
 6. Folder Structure:
-    ```This is the structure of the project:
+    ```bash
+    This is the structure of the project:
 
     SyncGuardian/
     ├── FolderUpdates/
